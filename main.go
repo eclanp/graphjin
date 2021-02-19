@@ -37,7 +37,7 @@ Use "graphjin [command] --help" for more information about a command.
 
 package main
 
-import "github.com/dosco/graphjin/internal/serv"
+import "github.com/eclanp/graphjin/internal/serv"
 
 var (
 	// These variables are set using -ldflags

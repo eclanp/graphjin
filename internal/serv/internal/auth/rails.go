@@ -9,8 +9,8 @@ import (
 	"strings"
 
 	"github.com/bradfitz/gomemcache/memcache"
-	"github.com/dosco/graphjin/core"
-	"github.com/dosco/graphjin/internal/serv/internal/rails"
+	"github.com/eclanp/graphjin/core"
+	"github.com/eclanp/graphjin/internal/serv/internal/rails"
 	"github.com/garyburd/redigo/redis"
 )
 

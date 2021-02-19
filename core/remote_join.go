@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/dosco/graphjin/core/internal/qcode"
-	"github.com/dosco/graphjin/internal/jsn"
+	"github.com/eclanp/graphjin/core/internal/qcode"
+	"github.com/eclanp/graphjin/internal/jsn"
 )
 
 func (c *scontext) execRemoteJoin(res qres) (qres, error) {

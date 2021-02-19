@@ -153,7 +153,7 @@ spec:
     spec:
       containers:
         - name: graphjin
-          image: docker.io/dosco/graphjin:latest
+          image: docker.io/eclanp/graphjin:latest
           ports:
             - containerPort: 8080
 ```

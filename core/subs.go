@@ -14,7 +14,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/dosco/graphjin/core/internal/qcode"
+	"github.com/eclanp/graphjin/core/internal/qcode"
 	"github.com/rs/xid"
 )
 

@@ -8,8 +8,8 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"github.com/dosco/graphjin/core"
-	"github.com/dosco/graphjin/internal/serv/internal/auth"
+	"github.com/eclanp/graphjin/core"
+	"github.com/eclanp/graphjin/internal/serv/internal/auth"
 	"github.com/gorilla/websocket"
 	"github.com/rs/cors"
 	"go.opencensus.io/plugin/ochttp"

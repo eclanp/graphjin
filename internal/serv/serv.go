@@ -12,7 +12,7 @@ import (
 
 	rice "github.com/GeertJohan/go.rice"
 	"github.com/NYTimes/gziphandler"
-	"github.com/dosco/graphjin/internal/serv/internal/auth"
+	"github.com/eclanp/graphjin/internal/serv/internal/auth"
 	"go.opencensus.io/plugin/ochttp"
 )
 

@@ -348,7 +348,7 @@ To use Yugabyte in your local development flow just uncomment the following line
   # Environment variables to point GraphJin to Yugabyte
   # This is required since it uses a different user and port number
   yourapp_api:
-    image: dosco/graphjin:latest
+    image: eclanp/graphjin:latest
     environment:
       GO_ENV: "development"
       Uncomment below for Yugabyte DB

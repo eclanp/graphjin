@@ -2,11 +2,12 @@ package core
 
 import (
 	"fmt"
+	"log"
 	"strings"
 	"unicode"
 
-	"github.com/dosco/graphjin/core/internal/qcode"
-	"github.com/dosco/graphjin/core/internal/sdata"
+	"github.com/eclanp/graphjin/core/internal/qcode"
+	"github.com/eclanp/graphjin/core/internal/sdata"
 	"github.com/gobuffalo/flect"
 )
 
@@ -118,6 +119,7 @@ func initInflection(c *Config) error {
 }
 
 func getDBTableAliases(c *Config) map[string][]string {
+	log.Printf("tables: %+v", c.Tables)
 	m := make(map[string][]string, len(c.Tables))
 
 	for i := range c.Tables {

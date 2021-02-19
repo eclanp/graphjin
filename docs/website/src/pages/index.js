@@ -27,11 +27,11 @@ const HomeContent = () => {
               <Button to="/docs/start">Get Started</Button>
               <div className="ml-4 pt-3">
                 <GitHubButton
-                  href="https://github.com/dosco/graphjin"
+                  href="https://github.com/eclanp/graphjin"
                   data-color-scheme="no-preference: light; light: light; dark: dark;"
                   data-size="large"
                   data-show-count="true"
-                  aria-label="Star dosco/graphjin on GitHub"
+                  aria-label="Star eclanp/graphjin on GitHub"
                 >
                   Star
                 </GitHubButton>

@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/dosco/graphjin/core"
+	"github.com/eclanp/graphjin/core"
 )
 
 // Auth struct contains authentication related config values used by the GraphJin service

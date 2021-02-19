@@ -9,7 +9,7 @@
 		"database/sql"
 		"fmt"
 		"time"
-		"github.com/dosco/graphjin/core"
+		"github.com/eclanp/graphjin/core"
 		_ "github.com/jackc/pgx/v4/stdlib"
 	)
 
@@ -54,11 +54,11 @@ import (
 	"sync"
 
 	"github.com/chirino/graphql"
-	"github.com/dosco/graphjin/core/internal/allow"
-	"github.com/dosco/graphjin/core/internal/crypto"
-	"github.com/dosco/graphjin/core/internal/psql"
-	"github.com/dosco/graphjin/core/internal/qcode"
-	"github.com/dosco/graphjin/core/internal/sdata"
+	"github.com/eclanp/graphjin/core/internal/allow"
+	"github.com/eclanp/graphjin/core/internal/crypto"
+	"github.com/eclanp/graphjin/core/internal/psql"
+	"github.com/eclanp/graphjin/core/internal/qcode"
+	"github.com/eclanp/graphjin/core/internal/sdata"
 )
 
 type contextkey int

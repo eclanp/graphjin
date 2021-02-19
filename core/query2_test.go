@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/dosco/graphjin/core"
+	"github.com/eclanp/graphjin/core"
 	"github.com/stretchr/testify/assert"
 )
 

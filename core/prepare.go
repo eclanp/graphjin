@@ -7,8 +7,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/dosco/graphjin/core/internal/allow"
-	"github.com/dosco/graphjin/core/internal/qcode"
+	"github.com/eclanp/graphjin/core/internal/allow"
+	"github.com/eclanp/graphjin/core/internal/qcode"
 )
 
 type cquery struct {

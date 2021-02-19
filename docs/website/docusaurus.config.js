@@ -23,7 +23,7 @@ module.exports = {
           position: "left",
         },
         {
-          href: "https://github.com/dosco/graphjin",
+          href: "https://github.com/eclanp/graphjin",
           label: "Github",
           position: "left",
         },
@@ -52,14 +52,14 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-          editUrl: "https://github.com/dosco/graphjin/edit/master/docs/website",
+          editUrl: "https://github.com/eclanp/graphjin/edit/master/docs/website",
 
           remarkPlugins: [remarkImages],
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
-          editUrl: "https://github.com/dosco/graphjin/edit/master/docs/website",
+          editUrl: "https://github.com/eclanp/graphjin/edit/master/docs/website",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),

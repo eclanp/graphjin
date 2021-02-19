@@ -37,7 +37,7 @@ GraphJin has a rich feature set like integrating with your existing Ruby on Rail
 
 ```bash
 # clone the repository
-git clone https://github.com/dosco/graphjin
+git clone https://github.com/eclanp/graphjin
 
 # goto our example ecommerce app
 cd examples/webshop

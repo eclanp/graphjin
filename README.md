@@ -2,10 +2,10 @@
 
 # GraphJin - Build APIs in 5 minutes
 
-[![GoDoc](https://img.shields.io/badge/godoc-reference-5272B4.svg?style=for-the-badge&logo=appveyor&logo=appveyor)](https://pkg.go.dev/github.com/dosco/graphjin/core?tab=doc)
-[![GoReport](https://goreportcard.com/badge/github.com/gojp/goreportcard?style=for-the-badge)](https://goreportcard.com/report/github.com/dosco/graphjin)
-[![Apache 2.0](https://img.shields.io/github/license/dosco/graphjin.svg?style=for-the-badge)](https://github.com/dosco/graphjin/blob/master/LICENSE)
-[![Docker build](https://img.shields.io/docker/cloud/build/dosco/graphjin.svg?style=for-the-badge)](https://hub.docker.com/r/dosco/graphjin/builds)
+[![GoDoc](https://img.shields.io/badge/godoc-reference-5272B4.svg?style=for-the-badge&logo=appveyor&logo=appveyor)](https://pkg.go.dev/github.com/eclanp/graphjin/core?tab=doc)
+[![GoReport](https://goreportcard.com/badge/github.com/gojp/goreportcard?style=for-the-badge)](https://goreportcard.com/report/github.com/eclanp/graphjin)
+[![Apache 2.0](https://img.shields.io/github/license/eclanp/graphjin.svg?style=for-the-badge)](https://github.com/eclanp/graphjin/blob/master/LICENSE)
+[![Docker build](https://img.shields.io/docker/cloud/build/eclanp/graphjin.svg?style=for-the-badge)](https://hub.docker.com/r/eclanp/graphjin/builds)
 [![Discord Chat](https://img.shields.io/discord/628796009539043348.svg?style=for-the-badge&logo=appveyor)](https://discord.gg/6pSWCTZ)
 
 GraphJin gives you a high performance GraphQL API without you having to write any code. GraphQL is automagically compiled into an efficient SQL query. Use it either as a library or a standalone service.
@@ -13,7 +13,7 @@ GraphJin gives you a high performance GraphQL API without you having to write an
 ## Using it as a service
 
 ```bash
-go get github.com/dosco/graphjin
+go get github.com/eclanp/graphjin
 graphjin new <app_name>
 
 cd <app_name>
@@ -24,7 +24,7 @@ docker-compose up
 ## Using it in your own code
 
 ```console
-go get github.com/dosco/graphjin/core
+go get github.com/eclanp/graphjin/core
 ```
 
 ```golang
@@ -36,7 +36,7 @@ import (
   "fmt"
   "log"
 
-  "github.com/dosco/graphjin/core"
+  "github.com/eclanp/graphjin/core"
   _ "github.com/jackc/pgx/v4/stdlib"
 )
 
@@ -115,7 +115,7 @@ This compiler is what sits at the heart of GraphJin, with layers of useful funct
 
 [GraphQL vs REST](https://dev.to/dosco/rest-vs-graphql-building-startups-in-2021-3k73)
 
-[GraphQL Examples](https://pkg.go.dev/github.com/dosco/graphjin/core#pkg-examples)
+[GraphQL Examples](https://pkg.go.dev/github.com/eclanp/graphjin/core#pkg-examples)
 
 ## Reach out
 
