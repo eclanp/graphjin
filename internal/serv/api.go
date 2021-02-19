@@ -3,8 +3,8 @@ package serv
 import (
 	"time"
 
-	"github.com/dosco/graphjin/core"
-	"github.com/dosco/graphjin/internal/serv/internal/auth"
+	"github.com/eclanp/graphjin/core"
+	"github.com/eclanp/graphjin/internal/serv/internal/auth"
 
 	"github.com/spf13/viper"
 )

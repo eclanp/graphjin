@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/dosco/graphjin/core"
+	"github.com/eclanp/graphjin/core"
 )
 
 func Example_insert() {

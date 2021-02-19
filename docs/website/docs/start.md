@@ -10,7 +10,7 @@ You can then add your database schema to the migrations, maybe create some seed 
 
 ```bash
 # Download and install GraphJin. You will need Go 1.14 or above
-go get github.com/dosco/graphjin
+go get github.com/eclanp/graphjin
 ```
 
 And then create and launch your new app

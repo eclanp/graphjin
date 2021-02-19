@@ -4,9 +4,9 @@ import (
 	"bytes"
 	"encoding/base64"
 
-	"github.com/dosco/graphjin/core/internal/crypto"
-	"github.com/dosco/graphjin/core/internal/qcode"
-	"github.com/dosco/graphjin/internal/jsn"
+	"github.com/eclanp/graphjin/core/internal/crypto"
+	"github.com/eclanp/graphjin/core/internal/qcode"
+	"github.com/eclanp/graphjin/internal/jsn"
 )
 
 type cursors struct {

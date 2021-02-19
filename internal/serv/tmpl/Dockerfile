@@ -1,4 +1,4 @@
-FROM dosco/graphjin:latest
+FROM eclanp/graphjin:latest
 WORKDIR /
 
 COPY config/ /config/

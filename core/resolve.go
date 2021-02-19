@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/dosco/graphjin/core/internal/sdata"
+	"github.com/eclanp/graphjin/core/internal/sdata"
 )
 
 type resFn func(v ResolverProps) (Resolver, error)

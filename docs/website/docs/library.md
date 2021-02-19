@@ -11,7 +11,7 @@ package main
 
 import (
 	"database/sql"
-	"github.com/dosco/graphjin/core"
+	"github.com/eclanp/graphjin/core"
 	"github.com/go-chi/chi"
 	"github.com/go-chi/render"
 	_ "github.com/jackc/pgx/v4/stdlib"
@@ -144,5 +144,5 @@ conf.AddRoleTable("user", "table_name", core.Insert{
 ```
 
 ::: note
-If you're using a Postgres schema other than the default `public` then in addition to setting the `DBSchema` config param you also have to set the `search_path` runtime parameter on the DB connection itself. https://github.com/dosco/graphjin/issues/134#issuecomment-659562003
+If you're using a Postgres schema other than the default `public` then in addition to setting the `DBSchema` config param you also have to set the `search_path` runtime parameter on the DB connection itself. https://github.com/eclanp/graphjin/issues/134#issuecomment-659562003
 :::

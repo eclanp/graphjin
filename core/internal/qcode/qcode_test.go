@@ -5,8 +5,8 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/dosco/graphjin/core/internal/qcode"
-	"github.com/dosco/graphjin/core/internal/sdata"
+	"github.com/eclanp/graphjin/core/internal/qcode"
+	"github.com/eclanp/graphjin/core/internal/sdata"
 )
 
 var dbs *sdata.DBSchema

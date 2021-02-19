@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/dosco/graphjin/internal/serv/internal/migrate"
+	"github.com/eclanp/graphjin/internal/serv/internal/migrate"
 	"github.com/spf13/cobra"
 )
 

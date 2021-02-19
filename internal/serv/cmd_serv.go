@@ -1,7 +1,7 @@
 package serv
 
 import (
-	"github.com/dosco/graphjin/core"
+	"github.com/eclanp/graphjin/core"
 	"github.com/spf13/cobra"
 )
 

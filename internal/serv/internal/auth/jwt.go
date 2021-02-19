@@ -11,7 +11,7 @@ import (
 	"time"
 
 	jwt "github.com/dgrijalva/jwt-go"
-	"github.com/dosco/graphjin/core"
+	"github.com/eclanp/graphjin/core"
 )
 
 const (

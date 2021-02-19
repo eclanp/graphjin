@@ -8,14 +8,14 @@ There are two parts to most web apps: the backend and the frontend. The backend 
 
 GraphJin will instantly give you a powerful and high-performance GraphQL API that can be your apps' backend. Let's get started, I promise you it's super easy and will save you weeks to months of your life.
 
-For this example we will create a web e-commerce store. This example app can be found in repo. https://github.com/dosco/graphjin/tree/master/examples/webshop
+For this example we will create a web e-commerce store. This example app can be found in repo. https://github.com/eclanp/graphjin/tree/master/examples/webshop
 
 ## Try the example app
 
 Below we explain how this example app was built and other details around useing GraphJin to make you more productive.
 
 ```console
-git clone https://github.com/dosco/graphjin.git
+git clone https://github.com/eclanp/graphjin.git
 
 cd graphjin/examples/webshop
 docker-compose run api db:setup
@@ -25,7 +25,7 @@ docker-compose up
 ## Install GraphJin
 
 ```console
-go get github.com/dosco/graphjin
+go get github.com/eclanp/graphjin
 ```
 
 ## Create the app

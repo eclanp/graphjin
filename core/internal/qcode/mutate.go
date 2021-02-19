@@ -5,10 +5,10 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/dosco/graphjin/core/internal/graph"
-	"github.com/dosco/graphjin/core/internal/sdata"
-	"github.com/dosco/graphjin/core/internal/util"
-	"github.com/dosco/graphjin/internal/jsn"
+	"github.com/eclanp/graphjin/core/internal/graph"
+	"github.com/eclanp/graphjin/core/internal/sdata"
+	"github.com/eclanp/graphjin/core/internal/util"
+	"github.com/eclanp/graphjin/internal/jsn"
 )
 
 type MType uint8

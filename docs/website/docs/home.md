@@ -117,7 +117,7 @@ GraphJin can be used in two ways. You can run it as a standalone service serving
 ### Using it as a service
 
 ```bash
-go get github.com/dosco/graphjin
+go get github.com/eclanp/graphjin
 graphjin new <app_name>
 cd <app_name>
 docker-compose run api db:setup
@@ -127,7 +127,7 @@ docker-compose up
 ### Using it in your own code
 
 ```bash
-go get github.com/dosco/graphjin/core
+go get github.com/eclanp/graphjin/core
 ```
 
 ```go
@@ -137,7 +137,7 @@ import (
   "database/sql"
   "fmt"
   "time"
-  "github.com/dosco/graphjin/core"
+  "github.com/eclanp/graphjin/core"
   _ "github.com/jackc/pgx/v4/stdlib"
 )
 

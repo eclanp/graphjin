@@ -3,9 +3,9 @@ package psql
 import (
 	"strings"
 
-	"github.com/dosco/graphjin/core/internal/qcode"
-	"github.com/dosco/graphjin/core/internal/sdata"
-	"github.com/dosco/graphjin/core/internal/util"
+	"github.com/eclanp/graphjin/core/internal/qcode"
+	"github.com/eclanp/graphjin/core/internal/sdata"
+	"github.com/eclanp/graphjin/core/internal/util"
 )
 
 type expContext struct {
